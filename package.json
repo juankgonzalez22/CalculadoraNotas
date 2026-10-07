@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "dependencies": {
     "@expo/ui": "~57.0.22",
+    "@react-native-async-storage/async-storage": "2.2.0",
     "expo": "~57.0.27",
     "expo-constants": "~57.0.21",
     "expo-device": "~57.0.2",
@@ -28,8 +29,15 @@
     "react-native-worklets": "0.10.1"
   },
   "devDependencies": {
+    "@testing-library/react-native": "^14.0.1",
+    "@types/jest": "29.5.14",
     "@types/react": "~19.2.2",
-    "typescript": "~6.0.3"
+    "install": "^0.13.0",
+    "jest": "~29.7.0",
+    "jest-expo": "~57.0.5",
+    "npm": "^11.21.0",
+    "typescript": "~6.0.3",
+    "y": "^0.3.2"
   },
   "scripts": {
     "start": "expo start",
